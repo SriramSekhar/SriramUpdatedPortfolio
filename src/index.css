@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap);
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-300%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(10%);
+        opacity: 1;
+    }
+}
+
+@keyframes hover {
+    0% {
+        transform: translatey(0);
+    }
+    50% {
+        transform: translatey(-5px);
+    }
+    100% {
+        transform: translatey(0);
+    }
+}
+
+.insta {
+    animation: hover 2s ease-in-out infinite;
+}
+
+.img {
+    animation: hover 2s ease-in-out infinite;
+}
+
+@layer components {
+    .border-animation {
+      position: relative;
+      overflow: hidden;
+    }
+    .border-animation::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: #D53F8C; /* pink-300 */
+      transition: all 0.3s;
+    }
+    .border-animation:hover::after {
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  @layer components {
+    .dim {
+      opacity: 0.5 !important;
+      transition: opacity 0.3s;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .slick-prev {
+        left: 10px !important;
+        z-index: 1 !important;
+    }
+
+    .slick-next {
+        right: 10px !important;
+        z-index: 1 !important;
+    }
+}
+
+/* This will affect the scrollbar globally */
+::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the scroll thumb on hover */
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../src/Assets/sig.ttf')
+}
+
+.customFontStyle {
+    font-family: 'MyCustomFont';
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+.f {
+    font-family: 'Roboto', sans-serif;
+}
