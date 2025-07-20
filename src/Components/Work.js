@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 // Import project images
 import Password from "../Assets/Password.jpeg";
 import test from "../Assets/test.jpeg";
+import test1 from "../Assets/test1.png";
 import ProjectCard from "./ProjectCard";
 
 
@@ -65,13 +66,13 @@ const Work = () => {
                     />
 
                         <ProjectCard
-                        image={test} 
-                        title={"BMI Calculator"} 
+                        image={test1} 
+                        title={"Superlist Landing Clone"} 
                         // description={"Check your body mass index and seek advice"} 
-                        appLink={"https://check-body-mass-index.netlify.app/"} 
-                        codeLink={"https://github.com/Abdullahprogramme/BMI-calculator"}
+                        appLink={"https://mern-02-m002-theta.vercel.app/"} 
+                        codeLink={"https://github.com/SriramSekhar/MERN02M002/tree/main/june/week2/day5"}
                         detailed={"A simple tool to calculate body mass index and offer personalized advice on maintaining a healthy BMI."}
-                        techStack={["React JS", "Tailwind CSS", "HTML", "CSS"]}
+                        techStack={[ "HTML", "CSS"]}
                     />
                     </div>
                 }
