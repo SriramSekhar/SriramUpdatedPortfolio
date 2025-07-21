@@ -52,7 +52,7 @@ const Work = () => {
                         // description={"Check your body mass index and seek advice"} 
                         appLink={"https://cineverse-project.vercel.app/"} 
                         codeLink={"https://github.com/SriramSekhar/CineverseProject"}
-                        detailed={"A simple webpage for collection of movies."}
+                        detailed={"A simple webpage for collection of movies.[Solo Project]"}
                         techStack={["React JS", "Tailwind CSS"]}
                     />
                     <ProjectCard
@@ -61,7 +61,7 @@ const Work = () => {
                         // description={"Check your body mass index and seek advice"} 
                         appLink={" https://qlithbiswo.netlify.app/ "} 
                         codeLink={"https://github.com/Biswojit143/Qlith--Apple-Website-Clone"}
-                        detailed={"A simple clone webpage of a Apple servicing webpage."}
+                        detailed={"A simple clone webpage of a Apple servicing webpage.[Group Project]"}
                         techStack={[ "HTML", "CSS" , "Java Script"]}
                     />
 
@@ -71,7 +71,7 @@ const Work = () => {
                         // description={"Check your body mass index and seek advice"} 
                         appLink={"https://mern-02-m002-theta.vercel.app/"} 
                         codeLink={"https://github.com/SriramSekhar/MERN02M002/tree/main/june/week2/day5"}
-                        detailed={"A simple tool to calculate body mass index and offer personalized advice on maintaining a healthy BMI."}
+                        detailed={"A simple clone webpage of a Superlist Landing webpage.[Solo Project]"}
                         techStack={[ "HTML", "CSS"]}
                     />
                     </div>

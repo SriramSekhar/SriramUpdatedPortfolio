@@ -78,7 +78,7 @@ const Contact = () => {
             <div className="w-full max-w-5xl flex flex-col md:flex-row md:gap-10 items-start">
 
                 {/* Left Section */}
-                <div className="z-10 md:w-1/2 w-full text-purple-600 mb-10 md:mb-0">
+                <div className="z-10 md:w-1/2 w-full text-green-400 mb-10 md:mb-0">
                     <h1 className="text-6xl font-bold inline border-b-4 border-pink-300 text-[#416D19] mb-6">Contact's</h1>
                     <p className="text-gray-300 text-lg mb-6 mt-8 font-bold">
                         I’d love to hear from you.<br />
